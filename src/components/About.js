@@ -7,13 +7,13 @@ export default function About(props) {
     //     backgroundColor: 'white'
     // }) 
     let myStyle = {
-        color: props.mode ==='dark'?'white':'#042743',
-        backgroundColor: props.mode ==='dark'?'rgb(36 74 104)':'white', 
+        color: props.mode === 'dark' ? 'white' :'#7caffc',
+        backgroundColor: props.mode === 'dark' ?'#7caffc':'white',
     }
     
     return (
         <div className="container">
-            <h1 className="my-3" style={{color: props.mode ==='dark'?'white':'#042743'}}>About Us</h1>
+            <h1 className="my-3" style={{ color: props.mode === 'dark' ? 'white' :'#7caffc'}}>About Us</h1>
             <div className="accordion" id="accordionExample">
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingOne">
@@ -23,8 +23,7 @@ export default function About(props) {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div className="accordion-body" style={myStyle}>
-                    Textutils gives you a way to analyze your text quickly and efficiently. Be it word count, character count or 
-
+                    This Website gives you a way to analyze your text quickly and efficiently. Be it word count, character count or 
                     </div>
                     </div>
                 </div>
@@ -36,7 +35,7 @@ export default function About(props) {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div className="accordion-body" style={myStyle}>
-                    TextUtils is a free character counter tool that provides instant character count & word count statistics for a given text. TextUtils reports the number of words and characters. Thus it is suitable for writing text with word/ character limit.
+                    T is a free character counter tool that provides instant character count & word count statistics for a given text. TextUtils reports the number of words and characters. Thus it is suitable for writing text with word/ character limit.
                     </div>
                     </div>
                 </div>
